@@ -1,0 +1,120 @@
+.all{
+  position: relative;
+  /*height: 800px;*/
+  width: 500px;
+}
+.all img{
+  /*height: 100%;*/
+  width: 100%;
+}
+.btn{
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  left: 0;
+  top: 0;
+  /*left: 0;
+  top: 0;
+  就是指定位到左上角*/
+}
+.btn img{
+	position: absolute;
+	top: 0;
+	padding: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+    width: 80%;
+/*針對單一一張圖要用class指定
+現在的做法是控制btn下的所有圖片*/
+}
+.btn1{
+    left: 29px;
+    top: 317px;
+}
+.btn2{
+    left: calc(29px + 107px*1 + 10px*1);
+    top: 317px;
+}
+.btn3{
+    left: calc(29px + 107px*2 + 10px*2);
+    top: 317px;
+}
+.btn4{
+    left: calc(29px + 107px*3 + 10px*3);
+    top: 317px;
+}
+.btn5{
+    left: calc(29px + 107px*0 + 10px*0);
+    top: calc(317px + 116px)
+}
+.btn6{
+    left: calc(29px + 107px*1 + 10px*1);
+    top: calc(317px + 116px)
+}
+.btn7{
+    left: calc(29px + 107px*2 + 10px*2);
+    top: calc(317px + 116px)
+}
+.btn8{
+    left: calc(29px + 107px*3 + 10px*3);
+    top: calc(317px + 116px)
+}
+.btn9{
+    left: calc(29px + 107px*0 + 10px*0);
+    top: calc(317px + 116*2px)
+}
+.btn10{
+    left: calc(29px + 107px*1 + 10px*1);
+    top: calc(317px + 116*2px)
+}
+.btn11{
+    left: calc(29px + 107px*2 + 10px*2);
+    top: calc(317px + 116*2px)
+}
+.btn12{
+    left: calc(29px + 107px*3 + 10px*3);
+    top: calc(317px + 116*2px)
+}
+.btn13{
+    left: calc(29px + 107px*0 + 10px*0);
+    top: calc(317px + 117*3px)
+}
+.btn14{
+    left: calc(29px + 107px*1 + 10px*1);
+    top: calc(317px + 117*3px)
+}
+.btn15{
+    left: calc(29px + 107px*2 + 10px*2);
+    top: calc(317px + 117*3px)
+}
+.btn16{
+    left: calc(29px + 107px*3 + 10px*3);
+    top: calc(317px + 117*3px)
+}
+
+
+
+
+.home{
+  position: absolute;
+  top: 13px;
+  left: 1190px;
+}
+.home a{
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 60px;
+  white-space: nowrap;
+}
+.home a:hover{
+  text-decoration: none;
+  font-size: 70px;
+  white-space: nowrap;
+  transition: all 0.3s;
+}
+.fa-home{
+  color: #917959;
+  z-index: 100;
+}
