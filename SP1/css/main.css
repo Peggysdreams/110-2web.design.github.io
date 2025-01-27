@@ -1,0 +1,47 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+.area{
+    width: 100%;
+    min-height: 100vh;
+}
+.area1{
+	background-image: url(../images/a06.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.img1{
+	width: 500px;
+}
+
+
+
+
+.home{
+  position: absolute;
+  top: 13px;
+}
+.home a{
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 60px;
+  white-space: nowrap;
+}
+.home a:hover{
+  text-decoration: none;
+  font-size: 70px;
+  white-space: nowrap;
+  transition: all 0.3s;
+}
+.fa{
+  margin-left: 300px;
+}
+.fa-home{
+  color: #917959;
+  margin-left: 1190px;
+  margin-right: 0px;
+  z-index: 100;
+}
