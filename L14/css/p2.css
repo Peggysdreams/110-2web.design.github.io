@@ -1,0 +1,82 @@
+.avatar{
+    /*outline: 1px solid red;*/
+    height: 255px;
+    /*不適用div置中:text-align: center;*/
+}
+.face{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+	width: 300px;
+	height: 255px;
+    /*outline: 1px solid blue;*/
+    /*圖片的置中語法應該要這樣寫:
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;*/
+}
+.look{
+	position: absolute;
+	left: 0;
+	top: 0;
+	/*outline: 1px solid red;*/
+	width: 207px;
+	height: 103px;
+	margin-left: 45px;
+	margin-top: 100px;
+	background-repeat: no-repeat;
+	background-position: center 0;
+	/*background-position: center 0;0就是在上面*/
+	/*藍框中的左上角
+	left: 0;
+	top: 0;*/
+	opacity: 0;
+	transition: all 0.35s;
+}
+.look0{
+	opacity: 1;
+}
+.look1{background-image: url(../images/look1.png);}
+.look2{background-image: url(../images/look2.png);}
+.look3{background-image: url(../images/look3.png);}
+.look4{background-image: url(../images/look4.png);}
+.look5{background-image: url(../images/look5.png);}
+.look6{background-image: url(../images/look6.png);}
+.look7{background-image: url(../images/look7.png);}
+.look8{background-image: url(../images/look8.png);}
+.look9{background-image: url(../images/look9.png);}
+.look10{background-image: url(../images/look10.png);}
+.control{
+	text-align: center;
+	/*適用圖片與文字置中:text-align: center;*/
+}
+.btn{}
+.btn-l{}
+.btn-r{}
+
+
+
+
+.home{
+  position: absolute;
+  top: 13px;
+  left: 1190px;
+}
+.home a{
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 60px;
+  white-space: nowrap;
+}
+.home a:hover{
+  text-decoration: none;
+  font-size: 70px;
+  white-space: nowrap;
+  transition: all 0.3s;
+}
+.fa-home{
+  color: #917959;
+  z-index: 100;
+}

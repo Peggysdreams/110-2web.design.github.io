@@ -1,0 +1,183 @@
+.card{
+	position: relative;
+	left: 0;
+	right: 0;
+	margin: auto;
+	background-image: url(../images/bg.png);
+	background-repeat: no-repeat;
+	width: 500px;
+	height: 500px;
+	overflow: hidden;
+    /*position: relative;
+	left: 0;
+	right: 0;
+	margin: auto;
+	水平置中作法
+	垂直置中要用posa，在.circle有示範*/
+}
+.circle{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 363px;
+	height: 363px;
+	transform: scale(0);
+}
+.circleFadIn{
+	animation-name: aniCircleFadIn;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+@keyframes aniCircleFadIn{
+	0%{
+		transform: scale(0);
+	}
+	100%{
+		transform: scale(1);
+	}
+}
+.circleRound{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	background-image: url(../images/circle.png);
+	background-repeat: no-repeat;
+	width: 363px;
+	height: 363px;
+	animation-name: circleAni;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+@keyframes circleAni{
+	0%{
+		transform: rotate(0deg);
+	}
+	50%{
+		transform: rotate(180deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+.words{
+	/*outline: 1px solid red;*/
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 233px;
+	height: 267px;
+	opacity: 0;
+}
+.wordsFadIn{
+	animation-name: aniWordsFadIn;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+@keyframes aniWordsFadIn{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+.word{
+	position: relative;
+	left: 0;
+	right: 0;
+	margin: auto;
+	/*outline: 1px solid red;*/
+}
+.happy{
+	top: 15px;
+	width: 199px;
+	height: 46px;
+}
+.newYear{
+	top: 10px;
+	width: 233px;
+	height: 89px;
+}
+.wd2023{
+	/*沒有position: absolute;從原地移動*/
+	top: -35px;
+	width: 229px;
+	height: 132px;
+	/*css的名字不能只有數字，故使用wd2023*/
+}
+.hands{
+	/*outline: 1px solid red;*/
+	position: absolute;
+	bottom: -250px;
+	width: 500px;
+	height: 250px;
+}
+.handsFadIn{
+	animation-name: aniHandsFadIn;
+	animation-duration: 2.5s;
+	animation-fill-mode: forwards;
+}
+@keyframes aniHandsFadIn{
+	0%{
+		bottom: -250px;
+	}
+	100%{
+		bottom: 0;
+	}
+}
+.handL{
+	position: absolute;
+	bottom: -30px;
+	left: -30px;
+	width: 244px;
+	height: 212px;
+}
+.handC{
+	position: absolute;
+	left: 210px;
+	bottom: -30px;
+	width: 141px;
+	height: 209px;
+}
+.handR{
+	position: absolute;
+	right: -30px;
+	bottom: -30px;
+	width: 237px;
+	height: 202px;
+}
+
+
+
+
+.home{
+  position: absolute;
+  top: 13px;
+  left: 1190px;
+}
+.home a{
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 60px;
+  white-space: nowrap;
+}
+.home a:hover{
+  text-decoration: none;
+  font-size: 70px;
+  white-space: nowrap;
+  transition: all 0.3s;
+}
+.fa-home{
+  color: #917959;
+  z-index: 100;
+}
