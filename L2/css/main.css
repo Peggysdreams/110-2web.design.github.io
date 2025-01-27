@@ -1,0 +1,191 @@
+.picture{
+display: inline-block;
+position: relative;
+outline: 1px solid #000;
+width: 300px;
+height: 200px;
+ }
+.cup{
+position: absolute;
+width: 200px;
+height: 150px;
+background-color: #b1aaa5;
+border-radius: 0 0 30px 30px;
+margin-left: 30px;
+ }
+.handle{
+width: 100px;
+height: 100px;
+background-color: #b1aaa5;
+border-radius: 0 30px 30px 0;
+position: absolute;
+margin-left:180px;
+margin-top:10px;
+ }
+.handle2{
+width: 80px;
+height: 70px;
+background-color: #fff;
+border-radius: 0 15px 15px 0;
+margin-top: 15px;
+position: absolute;
+ }
+.plate{
+position: absolute;
+width: 250px;
+height: 10px;
+background-color: #b1aaa5;
+border-radius: 0 0 100px 100px;
+margin-left: 5px;
+margin-top: 150px;
+ }
+.plate2{
+width: 200px;
+height: 10px;
+background-color: #b1aaa5;
+  border-radius: 0 0 15px 15px;
+  margin-top: 160px;
+  margin-left: 30px;
+  position: absolute;
+ }
+.name{
+  position: absolute;
+/*   outline: 1px solid #000; */
+  width: 200px;
+  margin-top: 170px;
+  margin-left: 30px;
+  text-align: center;
+}
+.coffee1{
+position: absolute;
+background-color: #6e4a30;
+width: 180px;
+height: 30px;
+border-radius: 0 0 30px 30px;
+margin-left: 10px;
+margin-top: 110px;
+text-align: center;
+ }
+.milkforth{
+  position: absolute;
+  width: 180px;
+  height: 30px;
+  background-color:#fff8e6;
+  margin-left: 10px;
+  margin-top: 80px;
+  text-align: center;
+ }
+.milkforth2{
+  position: absolute;
+  width: 180px;
+  height: 30px;
+  background-color: #fff8e6;
+  margin-left: 10px;
+  margin-top: 10px;
+  text-align: center;
+ }
+.milkforth3{
+  position: absolute;
+  width: 180px;
+  height: 70px;
+  background-color: #fff8e6;
+  margin-left: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+.water{
+  position: absolute;
+  width: 180px;
+  height: 80px;
+  background-color: #adfbff;
+  margin-left: 10px;
+  margin-top: 30px;
+  text-align: center;
+}
+.milk{
+  position: absolute;
+  width: 180px;
+  height: 70px;
+  background-color: #fff;
+  margin-left: 10px;
+  margin-top: 40px;
+  text-align: center;
+}
+.milk2{
+  position: absolute;
+  width: 180px;
+  height: 30px;
+  background-color: #fff;
+  margin-left: 10px;
+  margin-top: 80px;
+  text-align: center;
+ }
+.milk3{
+  position: absolute;
+  width: 180px;
+  height: 40px;
+  background-color: #fff;
+  margin-left: 10px;
+  margin-top: 40px;
+  text-align: center;
+ }
+.butter{
+  position: absolute;
+  width: 180px;
+  height: 30px;
+  background-color: #ffecad;
+  margin-left: 10px;
+  margin-top: 80px;
+  text-align: center;
+ }
+.butter2{
+  position: absolute;
+  width: 180px;
+  height: 30px;
+  background-color: #ffecad;
+  margin-left: 10px;
+  margin-top: 10px;
+  text-align: center;
+ }
+.half{
+  position: absolute;
+  width: 180px;
+  height: 70px;
+  background-color: #fff0cc;
+  margin-left: 10px;
+  margin-top: 40px;
+  text-align: center;
+}
+.chocolate{
+  position: absolute;
+  width: 180px;
+  height: 30px;
+  background-color: #944a00;
+  margin-left: 10px;
+  margin-top: 80px;
+  text-align: center;
+}
+
+
+
+.home{
+  position: absolute;
+  top: 13px;
+  left: 1220px;
+}
+.home a{
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 60px;
+  white-space: nowrap;
+}
+.home a:hover{
+  text-decoration: none;
+  font-size: 70px;
+  white-space: nowrap;
+  transition: all 0.3s;
+}
+.fa-home{
+  color: #917959;
+  z-index: 100;
+}
